@@ -1,0 +1,76 @@
+@font-face{
+    font-family: "CinzelDecorative-Regular"; 
+    src: url('fonts/CinzelDecorative-Regular.otf');
+}
+@font-face{
+    font-family: 'CinzelDecorative-Black';
+    src: url('fonts/CinzelDecorative-Black.otf');
+}
+@font-face{
+    font-family: 'CinzelDecorative-Bold';
+    src: url("fonts/CinzelDecorative-Bold.otf");
+}
+@font-face{
+    font-family: 'Amiri Slanted';
+    src: url('fonts/Amiriitalic.ttf');
+}
+@font-face{
+    font-family: 'Amiri Regular';
+    src: url('fonts/Amiri-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 2000px;
+    padding: 0;
+    margin: 0;
+}
+.head{
+    min-width: 500px;
+    max-width: 2000px;
+    height: 600px;
+    text-align: center;
+    background-color: #1a1c0f;
+    background-image: url('img/Photo-Overlay.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    opacity: 1;
+}
+.logo{
+    width: 77px;
+    height: 81px;
+    margin: auto;
+    background-image: url('img/Logo.png');
+}
+.head__title{
+    overflow: hidden;
+}
+.title_text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.title_text::before,
+.title_text::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    height: 4px;
+    background-color: #00cf00;
+    position: relative;
+}
+
+.title_text::before{
+    margin-right: -100%;
+    right: -15px;
+
+    
+}
+.title_text::after{
+    margin-left: -100%;
+    left: -15px;
+}
