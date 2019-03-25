@@ -37,6 +37,7 @@
     background-image: url('img/Photo-Overlay.png');
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: top center;
     
     opacity: 1;
 }
@@ -62,15 +63,4 @@
     height: 4px;
     background-color: #00cf00;
     position: relative;
-}
-
-.title_text::before{
-    margin-right: -100%;
-    right: -15px;
-
-    
-}
-.title_text::after{
-    margin-left: -100%;
-    left: -15px;
 }
